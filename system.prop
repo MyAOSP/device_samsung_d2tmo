@@ -85,15 +85,15 @@ persist.radio.add_power_save=1
 # System propverty snapshot disable
 persist.radio.snapshot_disabled=1
 
-# qcom display options
-debug.enabletr=true
 com.qc.hardware=true
-ro.sf.compbypass.enable=1
 com.qc.hdmi_out=true
 ro.hdmi.enable=true
-debug.sf.hw=1
-debug.composition.type=dyn
+
 ro.cwm.enable_key_repeat=true
+
+# data tweaks
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
 
 # hardware info
 ro.device.cpu=1.5 GHz dual-core Qualcomm Snapdragon S4 MSM8960
